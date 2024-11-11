@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+
+* {box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(204, 160, 110, 0.466);;
+}
+
+main{
+    max-width: 60%;
+    margin: 100px auto;
+    padding: 2rem;
+    border-radius: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1 {
+    color: rgb(5, 5, 5);
+    font-size: 35px;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+}
+
+h2 {
+    color: brown;
+    font-size: 25px;
+}
+
+h3 {
+    color: purple;
+    font-size: 20px;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h3 + .color1{
+    background-color: rgb(230, 217, 230);
+}
+
+section.Preparation{
+
+
+}
+header img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.nutritionTable {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nutritionTable li {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    display: flex;
+}
+
+.nutritionTable li p {
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.nutritionTable li p:nth-child(even) {
+    color: brown;
+    font-weight: 900;
+}
+
+span {
+    font-weight: bold;
+}
+
+.color li::marker {
+    color: brown;
+}
+
+.flex li::marker {
+    color:brown;
+}
+
+@media all and (max-width: 375px) {
+    body {
+        flex-direction: column;
+        width:100%;
+        background-color: white;
+
+    img{
+    width: 100%;
+    display: block;
+}
+        
+}
+}
